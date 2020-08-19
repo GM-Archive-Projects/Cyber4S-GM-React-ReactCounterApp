@@ -7,7 +7,7 @@ class UserInput extends Component {
   render() {
     return (
       <div>
-        <input ref="id_input" type="date" defaultValue="2025-05-07" />
+        <input ref="id_input" type="date" defaultValue="1996-11-07" />
         <button onClick={this.changeDate2} className="btn btn-primary">
           Change The Date
         </button>
